@@ -1,0 +1,14 @@
+google-play-scraper
+pandas
+selenium 
+webdriver-manager
+langdetect
+emoji
+vaderSentiment
+nltk
+gensim
+jupyter
+pyLDAvis
+textblob
+matplotlib
+seaborn
