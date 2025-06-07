@@ -9,3 +9,4 @@ venv/
 data/
 data/row
 data/processed
+*.csv
