@@ -17,3 +17,4 @@ torch
 spacy
 cx_Oraclepip
 pyodbc
+wordcloud
