@@ -75,7 +75,6 @@ Installation
 git clone https://github.com/Selamawit-Alemu/week-2-Customer-Experience-Analytics-for-Fintech-Apps.git
 cd week-2-Customer-Experience-Analytics-for-Fintech
 
-(Note: Replace your-username with the actual GitHub username or organization.)
 
 Create and activate a virtual environment:
 Bash
