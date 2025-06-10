@@ -72,7 +72,7 @@ Installation
     Clone the repository:
     Bash
 
-git clone https://github.com/your-username/week-2-Customer-Experience-Analytics-for-Fintech.git
+git clone https://github.com/Selamawit-Alemu/week-2-Customer-Experience-Analytics-for-Fintech-Apps.git
 cd week-2-Customer-Experience-Analytics-for-Fintech
 
 (Note: Replace your-username with the actual GitHub username or organization.)
