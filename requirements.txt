@@ -12,3 +12,8 @@ pyLDAvis
 textblob
 matplotlib
 seaborn
+transformers
+torch
+spacy
+cx_Oraclepip
+pyodbc
