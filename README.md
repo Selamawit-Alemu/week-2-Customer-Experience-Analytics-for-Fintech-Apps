@@ -483,20 +483,28 @@ Bash
 pip install -r requirements.txt
 ```
 
-Database Setup (Oracle)
+Database Setup (SQL Server)
 
-    Ensure Oracle Database is running and accessible.
+    Ensure SQL Server is running and accessible.
 
-    Configure connection details: You will likely need to set environment variables or create a configuration file (e.g., config.ini or similar) for your Oracle database connection details (hostname, port, service name, username, password). These details should not be committed to version control.
+    Configure connection details: You will need to set environment variables or create a configuration file (e.g., .env, config.ini) for your SQL Server database connection details (e.g., server, database name, username, password). These details should not be committed to version control.
+        Example (using environment variables for a SQL Server instance):
+        Bash
 
-    Create the database and tables:
-    Bash
+    export DB_SERVER="your_sql_server_host" # e.g., localhost or an IP address
+    export DB_DATABASE="your_database_name"
+    export DB_USER="your_sql_user"
+    export DB_PASSWORD="your_sql_password"
 
-    python scripts/create_db.py
-    python scripts/create_tables.py
+ 
 
-    You can use db_dumps/bank_reviews_data_dump.sql for a reference or to directly load a sample schema/data if provided.
+Create the database and tables:
+Bash
 
+python scripts/create_db.py
+python scripts/create_tables.py
+
+The db_dumps/bank_reviews_data_dump.sql file contains the SQL schema and potentially sample data, which can be executed directly on your SQL Server instance if needed, or the create_db.py and create_tables.py scripts should handle this programmatically.
 Running the Project Workflow
 
 The typical workflow involves scraping, preprocessing, analyzing, inserting into the database, and visualizing.
