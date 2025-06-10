@@ -22,41 +22,41 @@ Minimum Requirement: 400 reviews per bank (1200 total).
 
 The repository is organized to ensure a clear separation of concerns, making it easy to navigate and understand the project workflow.
 
-week-2-Customer-Experience-Analytics-for-Fint.../
-├── .github/
-│   └── workflows/
-│       └── python-ci.yml             # GitHub Actions workflow for CI
-├── data/
-│   ├── processed/
-│   │   ├── analyzed_reviews.csv      # Reviews after sentiment/topic analysis
-│   │   ├── cleaned_reviews.csv       # Cleaned and preprocessed reviews
-│   │   └── sentiment_aggregated.csv  # Aggregated sentiment insights
-│   └── raw/
-│       └── reviews.csv               # Raw scraped reviews
-├── db_dumps/
-│   └── bank_reviews_data_dump.sql    # SQL dump for database schema and data
-├── notebooks/
-│   ├── Insight_from_sentiment_analysis.ipynb  # Notebook for sentiment analysis insights
-│   ├── reviews_with_themes.csv       # CSV output from topic modeling notebook
-│   └── sentiment_analysis.ipynb      # Notebook for sentiment analysis exploration
-├── scripts/
-│   ├── check_db_connection.py        # Script to test database connection
-│   ├── create_db.py                  # Script to create the Oracle database
-│   ├── create_tables.py              # Script to create database tables
-│   ├── export_to_sql.py              # Script to export data to SQL
-│   ├── insert_data.py                # Script to insert data into the database
-│   ├── preprocess.py                 # Script for data cleaning and preprocessing
-│   ├── run_sentiment.py              # Script to run sentiment analysis
-│   ├── run_topic_modeling.py         # Script to run topic modeling
-│   ├── scrape.py                     # Script for web scraping Google Play reviews
-│   ├── test.py                       # Unit tests for scripts
-│   ├── utils.py                      # Utility functions
-│   ├── view_DB_data.py               # Script to view data in the database
-│   └── visualize_topics.py           # Script to visualize topic models
-├── venv/                             # Python virtual environment
-├── .gitignore                        # Specifies intentionally untracked files to ignore
-├── README.md                         # This README file
-└── requirements.txt                  # List of Python dependencies
+        week-2-Customer-Experience-Analytics-for-Fint.../
+        ├── .github/
+        │   └── workflows/
+        │       └── python-ci.yml             # GitHub Actions workflow for CI
+        ├── data/
+        │   ├── processed/
+        │   │   ├── analyzed_reviews.csv      # Reviews after sentiment/topic analysis
+        │   │   ├── cleaned_reviews.csv       # Cleaned and preprocessed reviews
+        │   │   └── sentiment_aggregated.csv  # Aggregated sentiment insights
+        │   └── raw/
+        │       └── reviews.csv               # Raw scraped reviews
+        ├── db_dumps/
+        │   └── bank_reviews_data_dump.sql    # SQL dump for database schema and data
+        ├── notebooks/
+        │   ├── Insight_from_sentiment_analysis.ipynb  # Notebook for sentiment analysis insights
+        │   ├── reviews_with_themes.csv       # CSV output from topic modeling notebook
+        │   └── sentiment_analysis.ipynb      # Notebook for sentiment analysis exploration
+        ├── scripts/
+        │   ├── check_db_connection.py        # Script to test database connection
+        │   ├── create_db.py                  # Script to create the Oracle database
+        │   ├── create_tables.py              # Script to create database tables
+        │   ├── export_to_sql.py              # Script to export data to SQL
+        │   ├── insert_data.py                # Script to insert data into the database
+        │   ├── preprocess.py                 # Script for data cleaning and preprocessing
+        │   ├── run_sentiment.py              # Script to run sentiment analysis
+        │   ├── run_topic_modeling.py         # Script to run topic modeling
+        │   ├── scrape.py                     # Script for web scraping Google Play reviews
+        │   ├── test.py                       # Unit tests for scripts
+        │   ├── utils.py                      # Utility functions
+        │   ├── view_DB_data.py               # Script to view data in the database
+        │   └── visualize_topics.py           # Script to visualize topic models
+        ├── venv/                             # Python virtual environment
+        ├── .gitignore                        # Specifies intentionally untracked files to ignore
+        ├── README.md                         # This README file
+        └── requirements.txt                  # List of Python dependencies
 
 🚀 Getting Started
 
